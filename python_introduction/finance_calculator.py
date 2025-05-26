@@ -1,7 +1,7 @@
-montly_income = float(input("Enter your montly income: "))
-montly_expenses = float(input("Enter your montly expenses: "))
+montly_income = input("Enter your montly income: ")
+montly_expenses = input("Enter your montly expenses: ")
 
-montly_savings = montly_income - montly_expenses
+montly_savings = float(montly_income) - float(montly_expenses)
 
 projected_savings = montly_savings * 12 + (montly_savings * 12 * 0.05)
 
