@@ -1,7 +1,6 @@
 while True:
     try:
-        size_str = input("Enter the size of the pattern: ")
-        size = int(size_str)
+        size = int(input("Enter the size of the pattern: "))
         if size > 0:
             break
         else:
